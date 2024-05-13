@@ -1,7 +1,69 @@
-li{
+*{
+    font-family: quicksand;
+}
+ul li{
     list-style: none;
     font-size: 20px;
     color: blueviolet;
     text-align: center;
     font-style: italic;
+}
+ol li{
+    font-family: poppins, serif;
+}
+a{
+    text-decoration:none;
+    color: black;
+    font-family: quicksand, serif;
+    font-size: 25px;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: tomato;
+    font-size: 50px;
+    transition: 0.5s ease-in;
+}
+.Juwon{
+    color: brown;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 0.5s ease-in;
+    font-weight: bold;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#juwon{
+    width: 200px;
+    height: 200px;
+}
+h3,p{
+    color: red;
+    text-align: right;
+    border: 5px dotted green;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px;}
+
+.one , .two , .three{
+    border: 1px solid;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+    display: none;
+    
+}
+.three{
+    background-color: coral;
 }
